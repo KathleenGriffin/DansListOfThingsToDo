@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Dan's list of things to do</title>
+
+	<!-- CSS Code -->
+	<link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+<button onclick="generateIdea()">Gimme an idea</button>
+<p id="chosenString"></p>
+
+
+<script>
+var ideas = ["Streeeetch", "Go for a walk", "Practice German", "Learn some Maori words", "Cook something yummy", "Go to the libray", "Read the bible", "Draw", "clean something", "do something kind for someone else"];
+
+
+function generateIdea() {
+	var x = Math.floor((Math.random() * 10));
+	document.getElementById("chosenString").innerHTML = ideas[x];
+}
+</script>
+
+
+</body>
+
+</html>
