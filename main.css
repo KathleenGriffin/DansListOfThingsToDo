@@ -3,5 +3,25 @@
 body{
     margin-top: 100px;
     margin-left: 100px;
-     font: 25px arial, sans-serif;
+    margin-right: 100px;
+    background-color: #000000;
+     
+}
+
+p {
+  font: italic bold 100px futura, sans-serif;
+     background-color: #FF0000;
+     color: #FFFFFF;
+}
+
+button {
+  background-color: #FFFF;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
