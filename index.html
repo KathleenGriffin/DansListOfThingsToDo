@@ -17,11 +17,41 @@
 
 
 <script>
-var ideas = ["Streeeetch", "Go for a walk", "Practice German", "Learn some Maori words", "Cook something yummy", "Go to the libray", "Read the bible", "Draw", "clean something", "do something kind for someone else"];
+var ideas = ["Streeeetch", 
+	     "Go for a walk", 
+	     "Practice German", 
+	     "Learn some Maori words", 
+	     "Cook something yummy", 
+	     "Go to the libray", 
+	     "Read the bible", 
+	     "Draw", 
+	     "Clean something", 
+	     "Do something kind for someone else",
+	     "Love Kat",
+	     "Do a short writing exercise",
+	     "Learn a Fortnite dance move",
+	     "Make something on Tynker",
+	     "Listen to a song that reminds you of a happy time",
+	     "Play Civ",
+	     "Organise your laptop files",
+	     "Revise your budget",
+	     "Bake a cake",
+	     "Cook something you've never cooked before",
+	     "Love Kat",
+	     "Take some photos",
+	     "Do an Illustraor drawing",
+	     "Photoshop something funny",
+	     "Do the Stuff quiz",
+	     "Message someone you haven't spoken to in a while",
+	     "Do some codecademy",
+	     "Play a song on guitar",
+	     "Watch an educational video",
+	     "Learn a new song on guitar",
+	     ];
 
 
 function generateIdea() {
-	var x = Math.floor((Math.random() * 10));
+	var x = Math.floor((Math.random() * 30));
 	document.getElementById("chosenString").innerHTML = ideas[x];
 }
 </script>
